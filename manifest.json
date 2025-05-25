@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Content Safety Checker",
+  "version": "1.0",
+  "description": "Adds content safety checks to social media posts and comments.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://www.facebook.com/*", "https://github.com/*"],
+  "icons": {
+    "48": "resources/shield.avif"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*", "https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+} 
