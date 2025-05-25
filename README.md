@@ -101,7 +101,3 @@ To contribute:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-[Optional: Add any acknowledgements if you used specific resources or tutorials]
